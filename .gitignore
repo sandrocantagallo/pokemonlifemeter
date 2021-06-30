@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/heroes/node_modules
+/heroes/.pnp
+/heroes/.pnp.js
+
+# testing
+/heroes/coverage
+
+# production
+/heroes/build
+
+# misc
+/heroes/.DS_Store
+/heroes/.env.local
+/heroes/.env.development.local
+/heroes/.env.test.local
+/heroes/.env.production.local
+
+/heroes/npm-debug.log*
+/heroes/yarn-debug.log*
+/heroes/yarn-error.log*
