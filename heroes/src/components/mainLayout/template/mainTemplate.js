@@ -7,7 +7,7 @@ export default class MainTemplate extends React.Component{
    }
    render(){ 
        return( 
-          <div style = {{height:"100vh"}}> 
+          <div class="container" style = {{height:"100vh"}}> 
              <Header/> 
              {this.props.children} 
              <Footer/> 
